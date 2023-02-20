@@ -8,12 +8,20 @@ header{
   height: 500px;
 }
 
+footer{
+  height: 500px;
+  background-color: #23272a;
+}
+
 .container{
   width: 80%;
   max-width: 1600px;
   margin: 0 auto;
 }
 
+.navbar, .header-text, .card-img, .card-text, .last-card-text, .last-card-img{
+  border: dashed;
+}
 
 
 /* HEADER */
@@ -30,7 +38,21 @@ header{
   align-items: center;
   height: 50%;
   background-color: blanchedalmond;
-  border: dashed;
+  
+}
+
+.header-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  background-color: #00008b;
+}
+
+.header-text{
+  width: 60%;
+  height: 80%;
+  background-color: brown;
 }
 
 .navbar nav {
@@ -57,20 +79,6 @@ header{
 }
 
 
-.header-bottom{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80%;
-  background-color: #00008b;
-}
-
-.header-text{
-  width: 60%;
-  height: 80%;
-  background-color: brown;
-  border: dashed;
-}
 
 /* MAIN */
 .card{
@@ -93,13 +101,11 @@ header{
 .card-img{
   width: 60%;
   background-color: aqua;
-  border: dashed;
 }
 
 .card-text{
   width: 40%; 
   background-color: chocolate;
-  border: dashed;
 }
 
 
@@ -119,14 +125,52 @@ header{
 .last-card-text{
   height: 15%;
   background-color: chocolate;
-  border: dashed;
 }
 
 .last-card-img{
   height: 50%;
   background-color: aqua;
-  border: dashed;
 }
+
+
+
+/* FOOTER */
+.footer-top{
+  display: flex;
+  align-items: center;
+  height: 80%;
+}
+
+.footer-top div, .footer-top nav{
+  height: 80%;
+}
+
+.footer-top div{
+  width: 30%;
+  background-color: darkslategray;
+}
+
+.footer-top nav{
+  display: flex;
+  width: 70%;
+}
+
+.footer-top nav ul{
+  flex-grow: 1;
+  background-color: grey;
+  border: 1px white dashed;
+}
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  height: 20%;
+  border-top: 1px gray solid;
+}
+
+
+
+
 
 
 
