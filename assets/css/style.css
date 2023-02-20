@@ -30,10 +30,20 @@ header{
   align-items: center;
   height: 50%;
   background-color: blanchedalmond;
+  border: dashed;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: center;
+  width: 60%;
 }
 
 .navbar nav ul{
   display: flex;
+  padding: 0 200px;
+  border-left: dashed;
+  border-right: dashed;
   list-style: none;
 }
 
@@ -59,4 +69,29 @@ header{
   width: 60%;
   height: 60%;
   background-color: brown;
+  border: dashed;
+}
+
+/* MAIN */
+.card{
+  height: 400px;
+}
+
+.card.container{
+  display: flex;
+  align-items: center;
+}
+
+.card-img{
+  width: 60%;
+  height: 60%;
+  background-color: aqua;
+  border: dashed;
+}
+
+.section-text{
+  width: 40%;
+  height: 60%;
+  background-color: chocolate;
+  border: dashed;
 }
