@@ -67,7 +67,7 @@ header{
 
 .header-text{
   width: 60%;
-  height: 60%;
+  height: 80%;
   background-color: brown;
   border: dashed;
 }
@@ -77,21 +77,57 @@ header{
   height: 400px;
 }
 
+.card:nth-child(even){
+  background-color: lightgrey;
+}
+
 .card.container{
   display: flex;
   align-items: center;
 }
 
+.card-img, .card-text{
+  height: 80%;
+}
+
 .card-img{
   width: 60%;
-  height: 60%;
   background-color: aqua;
   border: dashed;
 }
 
-.section-text{
-  width: 40%;
-  height: 60%;
+.card-text{
+  width: 40%; 
   background-color: chocolate;
   border: dashed;
 }
+
+
+
+.last-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+ height: 800px;
+  background-color: lightgrey;
+}
+
+.last-card-text, .last-card-img{
+  width: 100%;
+}
+
+.last-card-text{
+  height: 15%;
+  background-color: chocolate;
+  border: dashed;
+}
+
+.last-card-img{
+  height: 50%;
+  background-color: aqua;
+  border: dashed;
+}
+
+
+
+
